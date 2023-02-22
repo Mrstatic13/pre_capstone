@@ -1,0 +1,102 @@
+.navbar-brand {
+    /* background: url(http://disputebills.com/site/uploads/2015/10/dispute.png) center / contain no-repeat; */
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+    width: 200px; /* no height needed ... image will resize automagically */
+  }
+html {
+      background-color: #82FF82;
+      background-image: url(MUZICHEAD_FULL.png); 
+      background-position: center center;
+      /* padding-top: 200px; */
+      /* padding-bottom: 200px; */
+      background-repeat: no-repeat;
+      background-size: 1250px;
+}
+
+body {
+    background-color: transparent;
+}
+
+.searchBox {
+    display: flex;
+    padding-top: 30px;
+}
+
+.col {
+    flex: 1;
+    align-items: center;
+    border-style:inset;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: black;
+    opacity: 80%;
+    color: white;
+    border-radius: 25px;
+}
+
+
+table {
+    flex: 1;
+    align-items: center;
+    border-style:inset;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: black;
+    opacity: 70%;
+    color: white;
+    width: 98%;
+   
+}
+h1 {
+    text-align: center;
+}
+
+.containerTable {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+td, th {
+    border-style: solid;
+}
+ 
+.tx {
+    color: white;
+}
+
+#uploadMusic, #uploadVideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style:inset;
+    padding: 30px;
+    
+    /* margin: 50px 400px 0px 400px; */
+    text-align: center;
+    background-color: black;
+    opacity: 70%;
+    color: white;
+    border-radius: 25px;
+}
+
+#uploadBig {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+  }
+
+
